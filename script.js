@@ -67,7 +67,7 @@ function chkSeq(idx){
             setTimeout(levelUp,500);
         }
     }else{
-        h3.innerText=`Your score is ${level}\n`+'"Game Over !" You enter a wrong sequence.\n Now press any key to restart the game';
+        h3.innerText=`Your score is ${level}\n`+'"Game Over !" You enter a wrong sequence.\n Now double click to restart the game';
         document.querySelector("body").style.backgroundColor="red";
         setTimeout(function (){
             document.querySelector("body").style.backgroundColor="rgb(101,110,89)";
