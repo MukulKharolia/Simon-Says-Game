@@ -8,7 +8,7 @@ function random(){
     return "c"+(Math.floor(Math.random()*4)+1);
 }
 
-document.addEventListener("keypress", function(event){
+document.addEventListener("click", function(event){
     if(start===false) {
         console.log("Game Started");
         start = true;
